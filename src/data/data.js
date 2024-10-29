@@ -2,6 +2,7 @@ const products = [
   {
     id: "Grt223",
     name: "Royal Canin",
+    sortDecription:"Lorem ipsum",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit doloremque earum, non provident consequatur labore ratione iure cumque? Ex architecto ipsum reprehenderit aperiam vel, harum deleniti excepturi dicta accusamus ut!",
     price: 4000,
@@ -12,6 +13,7 @@ const products = [
   {
     id: "Grt224",
     name: "Juguete Ratón",
+    sortDecription:"Lorem ipsum",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit doloremque earum, non provident consequatur labore ratione iure cumque? Ex architecto ipsum reprehenderit aperiam vel, harum deleniti excepturi dicta accusamus ut!",
     price: 420,
@@ -22,6 +24,7 @@ const products = [
   {
     id: "Hff556",
     name: "Pro Plan Purina",
+    sortDecription:"Lorem ipsum",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit doloremque earum, non provident consequatur labore ratione iure cumque? Ex architecto ipsum reprehenderit aperiam vel, harum deleniti excepturi dicta accusamus ut!",
     price: 720,
@@ -32,6 +35,7 @@ const products = [
   {
     id: "Hff557",
     name: "Juguete Pelota",
+    sortDecription:"Lorem ipsum",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit doloremque earum, non provident consequatur labore ratione iure cumque? Ex architecto ipsum reprehenderit aperiam vel, harum deleniti excepturi dicta accusamus ut!",
     price: 620,
@@ -42,6 +46,7 @@ const products = [
   {
     id: "Wre442",
     name: "Mix Para Periquitos",
+    sortDecription:"Lorem ipsum",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit doloremque earum, non provident consequatur labore ratione iure cumque? Ex architecto ipsum reprehenderit aperiam vel, harum deleniti excepturi dicta accusamus ut!",
     price: 800,
@@ -52,6 +57,7 @@ const products = [
   {
     id: "Wre443",
     name: "Jaula Para Aves",
+    sortDecription:"Lorem ipsum",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit doloremque earum, non provident consequatur labore ratione iure cumque? Ex architecto ipsum reprehenderit aperiam vel, harum deleniti excepturi dicta accusamus ut!",
     price: 820,

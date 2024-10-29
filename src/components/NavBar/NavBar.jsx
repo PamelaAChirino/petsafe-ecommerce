@@ -11,7 +11,7 @@ function NavBar() {
   return (
     <Navbar className="custom-navbar" expand="lg" fixed="top">
       <Container>
-        <Navbar.Brand href="#">
+        <Navbar.Brand href="/">
           <img src={petsafeIcon} alt="Usuario" width="24" height="24" />
           Pet safe
         </Navbar.Brand>

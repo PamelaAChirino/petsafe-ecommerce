@@ -12,11 +12,9 @@ const ItemListContainer = () => {
     getProducts()
       .then((data) => {
         if(idCategory){
-          //filtrar la data por esa categoria
           const productsFilter = data.filter( (product) => product.category === idCategory )
           setProducts(productsFilter)
         }else{
-          //guardamos todos los productos
           setProducts(data)
         }
       })
@@ -30,7 +28,7 @@ const ItemListContainer = () => {
 
 
   return (
-    <div className="itemlistcontainer">
+    <div className="item-list-container">
       <ItemList products={products} />
     </div>
   )

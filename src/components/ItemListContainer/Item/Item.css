@@ -1,0 +1,19 @@
+.custom-item{
+    background-color: rgba(243, 174, 95, 0.7) !important;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+.card{
+    background-color: #F3AE5F;
+}
+
+.card-img-custom{
+    width: 100%;
+    border-radius: 1%;
+    background-color: rgb(39, 39, 39);
+    height: 250px;
+  }
+  .item .text-item{
+    padding: 1% 0;
+  }
