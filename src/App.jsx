@@ -1,19 +1,23 @@
-import { useState } from 'react'
 import NavBar from './components/NavBar/NavBar';
-import ItemListContainer from './components/ItemListContainer/ItemListContainer';
+import ItemListContainer from './components/ItemListContainer/ItemListContainer'
+import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailContainer/ItemDetailContainer'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <div className='App'>
-      <NavBar></NavBar>
-      <ItemListContainer title="Bienvenidos a petsafe, insumos de salud y productos de mascotas" />
-      <ItemListContainer title="Bienvenidos a petsafe, insumos de salud y productos de mascotas" />
-      
+    <div className='container-app'>
+      <BrowserRouter>
+        <NavBar />
 
+        <Routes>
+          <Route path="/" element={<ItemListContainer />} />
+          <Route path="/category/:idCategory" element={ <ItemListContainer /> } />
+          <Route path="/detail/:idProduct" element={ <ItemDetailContainer /> } />
+        </Routes>
+      </BrowserRouter>
     </div>
-    
   )
 }
 

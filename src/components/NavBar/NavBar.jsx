@@ -3,6 +3,7 @@ import { Navbar, Nav, Container } from "react-bootstrap";
 import petsafeIcon from "./../../assets/petsafe.svg";
 import CartWidget from "./CartWidget";
 import "./navbar.css";
+import { Link } from "react-router-dom";
 
 function NavBar() {
   const cartCount = 3;
@@ -17,9 +18,9 @@ function NavBar() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#">Medicinas</Nav.Link>
-            <Nav.Link href="#">Insumos</Nav.Link>
-            <Nav.Link href="#">Juguetes</Nav.Link>
+            <Nav.Link as={Link} to="/category/perros">Perros</Nav.Link>
+            <Nav.Link as={Link} to="/category/gatos">Gatos</Nav.Link>
+            <Nav.Link as={Link} to="/category/aves">Aves</Nav.Link>
           </Nav>
           <Nav className="ml-auto">
             <Nav.Link href="#cart">
