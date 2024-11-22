@@ -6,6 +6,7 @@
 .item-list-container .itemlist{
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .item-list-container h2 {

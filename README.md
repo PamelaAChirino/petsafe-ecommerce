@@ -1,8 +1,33 @@
-# React + Vite
+# Petsafe
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Descripción
 
-Currently, two official plugins are available:
+**Petsafe** es una tienda en línea especializada en productos para mascotas. Este proyecto proporciona una experiencia de usuario intuitiva, permitiendo a los usuarios explorar una variedad de productos, agregar items a su carrito de compras y gestionar sus pedidos de forma sencilla.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
+
+## Características
+
+- Listado de productos organizados por categorías.
+- Funcionalidad de carrito de compras.
+- Notificaciones amigables utilizando `react-toastify`.
+- Validación de formularios con `yup`.
+
+---
+
+## Tecnologías
+
+Este proyecto utiliza las siguientes tecnologías:
+
+- **Frontend**: React.
+- **Backend**: Firebase (autenticación, base de datos, y hosting).
+- **Estilo**: Bootstrap, React-Bootstrap.
+- **Ruteo**: React Router DOM.
+- **Notificaciones**: React-Toastify.
+- **Validación**: Yup.
+- **Herramientas de desarrollo**: Vite, ESLint.
+
+---
+
+## Instalación
+

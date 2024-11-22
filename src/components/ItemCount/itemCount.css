@@ -1,0 +1,60 @@
+
+.item-count {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Controles del contador */
+.controls-count {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px; 
+}
+
+/* Botones + y - */
+.controls-count button {
+  background-color: #0B87BA; 
+  color: white; 
+  font-size: 1.5rem; 
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 10%;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.controls-count button:hover {
+  background-color: #086f8b; 
+}
+
+/* Estilo del texto del contador */
+.item-count p {
+  color: #F3AE5F; 
+  opacity: 0.8; 
+  font-size: 1.2rem;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+/* Botón "Agregar producto" */
+.button-add-count {
+  background-color: #0B87BA; 
+  color: white; 
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.button-add-count:hover {
+  background-color: #086f8b; 
+}

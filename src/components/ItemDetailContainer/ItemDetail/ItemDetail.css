@@ -1,46 +1,68 @@
-.item-detail{
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    min-height: 90vh;
-    padding: 100px 0;
-  }
-  .images-detail-container{
-    display: flex;
-    width: 50%;
-  }
-  .images-detail-container .secondary-images{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 40%;
-  }
-  .images-detail-container .secondary-images img{
-    width: 40%;
-    margin: 10px 0;
-    border-radius: 5px;
-  }
-  .images-detail-container .main-image{
-    width: 60%;
-  }
-  .images-detail-container .main-image img{
-    width: 90%;
-    border-radius: 5px;
-  }
-  
-  .text-detail-container{
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    padding: 0 10px;
-  }
-  .title-detail{
-    padding: 10px 0;
-    font-size: 3rem;
-  }
-  .text-detail{
-    font-style: italic;
-    padding: 10px 0;
-    font-size: 1.3rem;
-    color: rgb(218, 218, 218);
-  }
+.item-detail {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  min-height: 90vh;
+  padding: 100px 0;
+}
+.images-detail-container {
+  display: flex;
+  width: 50%;
+}
+.images-detail-container .secondary-images {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40%;
+}
+.images-detail-container .secondary-images img {
+  width: 40%;
+  margin: 10px 0;
+  border-radius: 5px;
+}
+.images-detail-container .main-image {
+  width: 60%;
+}
+.images-detail-container .main-image img {
+  width: 90%;
+  border-radius: 5px;
+}
+
+.text-detail-container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  padding: 0 10px;
+}
+.title-detail {
+  padding: 10px 0;
+  font-size: 2rem;
+  /* text-transform: uppercase; */
+  font-family: "Lato", sans-serif;
+}
+.text-detail {
+  font-style: italic;
+  padding: 10px 0;
+  font-size: 1.3rem;
+  color: rgb(218, 218, 218);
+}
+
+/* ComponentName.module.css */
+.button-end-buy {
+  background-color: #0b87ba;
+  color: white;
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  transition: background-color 0.3s;
+}
+
+.button-end-buy:hover {
+  background-color: #086f8b;
+  color: white;
+}

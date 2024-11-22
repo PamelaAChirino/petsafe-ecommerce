@@ -10,24 +10,42 @@ function NavBar() {
 
   return (
     <Navbar className="custom-navbar" expand="lg" fixed="top">
-      <Container>
-        <Navbar.Brand href="/">
-          <img src={petsafeIcon} alt="Usuario" width="24" height="24" />
-          Pet safe
-        </Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
-            <Nav.Link as={Link} to="/category/perros">Perros</Nav.Link>
-            <Nav.Link as={Link} to="/category/gatos">Gatos</Nav.Link>
-            <Nav.Link as={Link} to="/category/aves">Aves</Nav.Link>
-          </Nav>
-          <Nav className="ml-auto">
-            <Nav.Link href="#cart">
-              <CartWidget count={cartCount} />
-            </Nav.Link>
-          </Nav>
-        </Navbar.Collapse>
+      <Container fluid>
+        {/* Sección superior: Logo y carrito */}
+        <div className="navbar-top">
+          <Navbar.Brand>
+            <Link to="/" style={{ textDecoration: "none", color: "inherit" }}>
+              <img
+                src={petsafeIcon}
+                alt="Logo Petsafe"
+                width="40"
+                height="40"
+              />
+              Pet Safe
+            </Link>
+          </Navbar.Brand>
+          <Nav.Link href="#cart">
+            <CartWidget count={cartCount} />
+          </Nav.Link>
+        </div>
+
+        {/* Sección inferior: Menú centrado */}
+        <div className="navbar-bottom">
+          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Collapse id="basic-navbar-nav">
+            <Nav className="justify-content-center">
+              <Nav.Link as={Link} to="/category/perros">
+                Perros
+              </Nav.Link>
+              <Nav.Link as={Link} to="/category/gatos">
+                Gatos
+              </Nav.Link>
+              <Nav.Link as={Link} to="/category/aves">
+                Aves
+              </Nav.Link>
+            </Nav>
+          </Navbar.Collapse>
+        </div>
       </Container>
     </Navbar>
   );

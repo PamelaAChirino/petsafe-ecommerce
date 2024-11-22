@@ -1,33 +1,73 @@
 .custom-navbar {
-  background-color: #0b87ba; 
-  color: white; 
+  background-color: #0b87ba;
+  color: white;
+  padding: 1rem 0;
 }
 
-.custom-navbar .nav-link {
-  color: white; 
-  text-transform: uppercase; 
+/* Sección superior */
+.navbar-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+/* Logo */
+.navbar-top .navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+/* Carrito */
+.navbar-top .nav-link {
+  font-size: 1.5rem;
+  color: #333;
+  margin-left: auto;
+}
+
+.navbar-top .navbar-brand img {
+  margin-right: 0.5rem;
+}
+
+/* Sección inferior */
+.navbar-bottom {
+  text-align: center;
+}
+
+.navbar-bottom .nav {
+  justify-content: center;
+}
+
+.navbar-bottom .nav-link {
+  color: white;
+  text-transform: uppercase;
   font-family: "Lato", sans-serif;
 }
 
-.custom-navbar .nav-link:hover {
-  color: #ddd; 
+.navbar-bottom .nav-link:hover {
+  color: #f3ae5f;
 }
 
+@media (max-width: 768px) {
+  .navbar-top {
+    flex-direction: column;
+    align-items: center;
+  }
 
-.custom-navbar .navbar-brand {
-  display: flex; 
-  align-items: center; 
-  text-transform: uppercase; 
-  font-family: "Lato", sans-serif; 
-  font-weight: 700; 
-  color: white; 
+  .navbar-bottom .nav {
+    flex-direction: column;
+  }
+}
+.custom-navbar .container-fluid {
+  display: flex;
+  flex-direction: column;
 }
 
-.custom-navbar .navbar-brand img {
-  margin-right: 10px; 
-}
+.cartwidget span{
+  color: white;
 
-
-.navbar-brand {
-  margin-left: -15px; 
 }

@@ -1,0 +1,88 @@
+.checkout {
+  width: 100%;
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+}
+.content-input {
+  margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+}
+.content-input input {
+  font-size: 25px;
+  border-radius: 5px;
+  padding: 0 5px;
+}
+.button-send-order {
+  background-color: #0B87BA;
+  color: white; 
+  font-size: 1rem; 
+  padding: 10px 20px; 
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer; 
+  text-decoration: none; 
+  text-align: center; 
+  display: inline-block; 
+  transition: background-color 0.3s ease; 
+}
+
+.button-send-order:hover {
+  background-color: #086f8b;
+  color: white; 
+}
+
+.button-to-home {
+  margin: 20px 0;
+  width: 300px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(27, 27, 27);
+  border: 2px solid rgb(123, 123, 123);
+  border-radius: 5px;
+  color: rgb(177, 177, 177);
+  font-size: 20px;
+}
+
+.title-checkout {
+  padding: 20px 0;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: lighter;
+  font-family: "Lato", sans-serif;
+}
+
+.label {
+  font-family: 'Lato', sans-serif; /* Aplica la fuente Lato */
+  text-transform: uppercase; /* Convierte el texto a mayúsculas */
+  text-align: left; /* Alinea el texto a la izquierda */
+  font-size: 1rem; /* Tamaño de la fuente */
+  display: block; /* Garantiza que el `label` esté en su propia línea */
+  margin-bottom: 5px; /* Espaciado entre el `label` y el input */
+}
+
+.input {
+  background-color: rgba(243, 174, 95, 0.7); /* Fondo translúcido */
+  border: 1px solid #e89e55; /* Borde más oscuro */
+  color: #333; /* Color del texto */
+  font-size: 1rem; /* Tamaño de la fuente */
+  padding: 10px; /* Espaciado interno */
+  border-radius: 5px; /* Bordes redondeados */
+  width: 100%; /* Ajusta el ancho al contenedor */
+  outline: none; /* Quita el borde azul al enfocar */
+  transition: box-shadow 0.3s ease, background-color 0.3s ease; /* Transición suave */
+}
+
+.input:focus {
+  background-color: rgba(243, 174, 95, 0.9); /* Fondo más sólido al enfocar */
+  box-shadow: 0 0 5px rgba(243, 174, 95, 0.5); /* Efecto de luz */
+}
+
+.input::placeholder {
+  color: rgba(51, 51, 51, 0.5); /* Color translúcido para el texto del placeholder */
+}
